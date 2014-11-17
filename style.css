@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+*{
+	margin: 0;
+}
+.header{
+	background-image: url('../img/bg.jpg');
+	background-position: -190px -24px;
+	background-repeat: no-repeat;
+	height: 1000px;
+	padding-top: 370px;
+	text-align: center;
+}
+.logo{
+	position: absolute;
+	top: 0;
+	top: 10px;
+	left: 41px;
+	width: 269px;
+	height: 127px;
+	background-image: url('../img/logo.png');
+}
+.button-wrapper{
+	position: absolute;
+	top: 569px;
+	left: 582px;
+}
+.button{
+	background-color: #240e1a;
+	border: 1px solid #421326;
+	height: 55px;
+	margin: 0 auto;
+	width: 257px;
+	opacity: 0.6;
+	position: relative;
+}
+.button__hover{
+	background-color: #b06b88;
+	transition:1s;
+}
+.button-txt {
+	position: absolute;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	left: 27px;
+	top: 8px;
+	color: white;
+	opacity: 1 !important;
+}
