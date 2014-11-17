@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 *{
 	margin: 0;
 }
@@ -19,10 +21,49 @@
 	height: 127px;
 	background-image: url('../img/logo.png');
 }
+
+ul{
+	list-style: none;
+	font-size: 14px;
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	position: absolute;
+	top: 69px;
+	left: 1011px;
+	color: white;
+	padding-left: 0;
+
+}
+
+li{
+	padding: 0 27px;
+}
+
+.tittle{
+	display: block;	
+	position: absolute;
+	left: 246px;
+	top: 356px;
+	color: white
+}
+
+.tittle-style-1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 90px;
+}
+
+.tittle-style-2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	color: white;
+	padding-top: 13px;
+	letter-spacing: 3.45px;
+}
+
 .button-wrapper{
 	position: absolute;
-	top: 569px;
-	left: 582px;
+	top: 570px;
+	left: 583px;
 }
 .button{
 	background-color: #240e1a;
@@ -34,7 +75,7 @@
 	position: relative;
 	transition:0.3s;
 }
-.button:hover{
+.button-wrapper:hover{
 	background-color: #b06b88;
 	transition:0.3s;
 }
