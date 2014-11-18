@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 *{
 	margin: 0;
@@ -32,19 +32,25 @@ ul{
 	left: 1011px;
 	color: white;
 	padding-left: 0;
-
 }
 
 li{
 	padding: 0 27px;
 }
 
+li:hover{
+	background-color: #ff85d0;
+	font-size: 15px;
+	font-weight: bold;
+	transition:0.3s;
+}
+
 .tittle{
 	display: block;	
 	position: absolute;
-	left: 246px;
+	left: 247px;
 	top: 356px;
-	color: white
+	color: white;
 }
 
 .tittle-style-1{
@@ -58,6 +64,33 @@ li{
 	color: white;
 	padding-top: 13px;
 	letter-spacing: 3.45px;
+}
+
+.tittle-style-3{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 57px;
+	position: absolute;
+	top: 953px;
+	left: 572px;
+}
+
+.tittle-style-4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	position: absolute;
+	top: 1046px;
+	left: 184px;
+	text-align: center;
+	line-height: 1;
+}
+
+.tittle-style-5{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 57px;
+	display: flex;
+	position: absolute;
+	top: 1146px;
+	left: 303px;
 }
 
 .button-wrapper{
@@ -76,7 +109,8 @@ li{
 	transition:0.3s;
 }
 .button-wrapper:hover{
-	background-color: #b06b88;
+	background-color: #ff85d0;
+	font-weight: bold;
 	transition:0.3s;
 }
 .button-txt {
